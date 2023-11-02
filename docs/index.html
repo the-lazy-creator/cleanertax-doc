@@ -7,7 +7,7 @@
     <title>DOCS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body data-bs-theme="dark">
@@ -194,6 +194,73 @@
         </div>
     </div>
     <!-- END QUICKSTART -->
+
+    <!-- BACKEND ARCHITECTURE -->
+    <div class="container-fluid min-vh-100" id="arquitetura">
+        <h1 class="display-5 fw-bold text-body-emphasis text-center mb-3">ARQUITETURA BACKEND</h1>
+        <div class="container mw-100 text-center">
+            <img src="assets/img/arch-v1.svg" class="img-fluid">
+        </div>
+        <h3 class="mt-5">Arquitetura Hexagonal</h3>
+        <p>No backend do projeto optamos por seguir uma abordagem adaptada de arquitetura hexagonal.</p>
+        <div class="row mt-5">
+            <div class="col">
+                <h5>O objetivo da escolha</h5>
+            <i>Separation of Concerns (Separação de Conceitos):</i> é um conceito de engenharia de software que visa 
+            separar a aplicação em unidades ou módulos para evitar a sobreposição de funções e manter certos aspectos da aplicação isolados.
+            <h5 class="mt-3">Visão geral da estrutura</h5>
+            <ul>
+                <li>adapter</li>
+                <ul>
+                    <li>in</li>
+                    <ul>
+                        <li>web</li>
+                    </ul>
+                    <li>out</li>
+                    <ul>
+                        <li>persistence</li>
+                    </ul>
+                </ul>
+
+
+
+                <li>application</li>
+                <ul>
+                    <li>port</li>
+                    <ul>
+                        <li>input</li>
+                        <li>output</li>
+                    </ul>
+                    <li>service</li>
+                </ul>
+                <li>common</li>
+                <li>domain</li>
+                <ul>
+                    <li>enums</li>
+                    <li>entities</li>
+                </ul>
+            </ul>
+            </div>
+
+            <div class="col">
+                <h5>Adapters</h5>
+                <p>Os adapters são, basicamente, os pontos de entrada e saída da nossa aplicação e eles contém as implementações concretas 
+                    das utilidades da aplicação.
+                </p>
+                <h5>Ports</h5>
+                <p>As ports são interfaces (abstrações) que são definidas para a interação do core da aplicação com o mundo exterior</p>
+                <p><i>Input - Entrada</i></p>
+                <p><i>Output - Saída</i></p>
+                <h5>Service e useCase</h5>
+                <p>Na nossa definição de arquitetura optamos por ter o useCase como uma abstração da classe de serviço, logo, a classe de serviço é a 
+                    nossa classe concreta que é implementada a partir do useCase.
+                </p>
+                <h5>Entities</h5>
+                <p>As entidades representam os objetos que estamos interagindo na nossa aplicação. Elas se comunicam com o useCase e service por meio da própria definição da nossa abstração do useCase.</p>
+            </div>
+        </div>
+</div>
+    <!-- END BACKEND ARCHITECTURE -->
 </body>
 
 
