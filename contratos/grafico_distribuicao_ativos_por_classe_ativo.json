@@ -1,0 +1,56 @@
+{
+    "assetInvestmentClassDistributionChart": [
+        {
+            "assetInvestmentClass": "XXXXX",
+            "assetInvestmentClassBaseColor": "#FF0000",
+            "assetList": [
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 10,
+                    "assetRelativeColor": "#FF0000"
+                },
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 20,
+                    "assetRelativeColor": "#FF0000"
+                },
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 30,
+                    "assetRelativeColor": "#FF0000"
+                },
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 40,
+                    "assetRelativeColor": "#FF0000"
+                }
+            ]
+        },
+        {
+            "assetInvestmentClass": "XXXXX",
+            "assetInvestmentClassBaseColor": "#FF0000",
+            "assetList": [
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 10,
+                    "assetRelativeColor": "#FF0000"
+                },
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 20,
+                    "assetRelativeColor": "#FF0000"
+                },
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 30,
+                    "assetRelativeColor": "#FF0000"
+                },
+                {
+                    "assetName": "XXXXX",
+                    "assetPercentage": 40,
+                    "assetRelativeColor": "#FF0000"
+                }
+            ]
+        }
+    ]
+}

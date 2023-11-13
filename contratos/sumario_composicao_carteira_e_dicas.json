@@ -1,0 +1,43 @@
+{
+    "currentAssetWallet": [
+        {
+            "assetInvestmentClass": "XXXX",
+            "assetInvestmentClassPercentage": 35,
+            "assetInvestmentClassChartColor": "#XXXXXX"
+        },
+        {
+            "assetInvestmentClass": "XXXX",
+            "assetInvestmentClassPercentage": 65,
+            "assetInvestmentClassChartColor": "#XXXXXX"
+        }
+    ],
+    "wantedAssetWallet": [
+        {
+            "assetInvestmentClass": "XXXX",
+            "assetInvestmentClassPercentage": 25,
+            "assetInvestmentClassChartColor": "#XXXXXX"
+        },
+        {
+            "assetInvestmentClass": "XXXX",
+            "assetInvestmentClassPercentage": 45,
+            "assetInvestmentClassChartColor": "#XXXXXX"
+        }
+    ],
+    "walletEqualizationSuggestions": [
+        {
+            "assetInvestmentClass": "XXXX",
+            "asset": "XXXX",
+            "assetTransactionType": "XXXX"
+        },
+        {
+            "assetInvestmentClass": "XXXX",
+            "asset": "XXXX",
+            "assetTransactionType": "XXXX"
+        },
+        {
+            "assetInvestmentClass": "XXXX",
+            "asset": "XXXX",
+            "assetTransactionType": "XXXX"
+        }
+    ]
+}

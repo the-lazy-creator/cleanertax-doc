@@ -1,0 +1,16 @@
+{
+    "assetInvestmentClassObjectiveList": [
+        {
+            "assetInvestmentClass": "XXXXX",
+            "assetInvestmentClassWantedPercentage": 25
+        },
+        {
+            "assetInvestmentClass": "XXXXX",
+            "assetInvestmentClassWantedPercentage": 25
+        },
+        {
+            "assetInvestmentClass": "XXXXX",
+            "assetInvestmentClassWantedPercentage": 50
+        }
+    ]
+}

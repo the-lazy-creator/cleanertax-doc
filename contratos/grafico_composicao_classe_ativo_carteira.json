@@ -1,0 +1,14 @@
+{
+    "assetInvestmentClassChart": [
+        {
+            "assetInvestmentClass": "XXXXX",
+            "assetInvestmentClassPercentage": 73,
+            "assetInvestmentClassChartColor": "#FF0000"
+        },
+        {
+            "assetInvestmentClass": "YYYYY",
+            "assetInvestmentClassPercentage": 27,
+            "assetInvestmentClassChartColor": "#00FF00"
+        }
+    ]
+}
